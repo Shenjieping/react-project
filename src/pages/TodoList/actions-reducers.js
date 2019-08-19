@@ -53,7 +53,7 @@ export const reducers = {
     todoList(state = initState, action) {
         switch (action.type) {
             case types.GET_TODO_LIST:
-                return state.set('list', action.list);
+                return state.set('list', fromJS(action.list));
             case types.CHANGE_INPUT:
                 return state.set('inputValue', action.value);
             case types.ADD_ITEM:

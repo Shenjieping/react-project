@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Button, Input, List} from 'antd';
-import 'antd/dist/antd.css';
 import './style.scss';
 
 class TodoLIst extends Component {
