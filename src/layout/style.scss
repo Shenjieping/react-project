@@ -1,0 +1,17 @@
+.layout {
+    .header {
+        height: 40px;
+        padding: 0 10px;
+        a {
+            display: inline-block;
+            vertical-align: middle;
+            height: 40px;
+            line-height: 40px;
+            font-size: 16px;
+            padding: 0 10px;
+            &.active {
+                color: #f66;
+            }
+        }
+    }
+}
