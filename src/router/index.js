@@ -10,12 +10,13 @@ export default () => {
     return (
         <div className="router-container">
             <Router>
-                <Layout />
-                <Switch>
-                    <Route exact path='/' component={Home} />
-                    <Route path='/list' component={List} />
-                    <Route path='/todo' component={TodoList} />
-                </Switch>
+                <Layout>
+                    <Switch>
+                        <Route exact path='/' component={Home} />
+                        <Route path='/list' component={List} />
+                        <Route path='/todo' component={TodoList} />
+                    </Switch>
+                </Layout>
             </Router>
         </div>
     );
